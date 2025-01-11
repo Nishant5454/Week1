@@ -13,7 +13,7 @@ public class quotient {
         System.out.println("Enter the number for calculating the quotient and reminder");
         int number1=sc.nextInt(); 
         int number2=sc.nextInt(); 
-        int array[]=quotientandreminder(number1, number2); 
+        int array[]=quotientandreminder(number1, number2); // call the function and print the result;
         System.out.println("The  reminder of the"+number1+" "+number2+" is"+array[1]+" "+"The quotient of the "+number1+" "+number2+" "+"is"+array[0]);
 
 
