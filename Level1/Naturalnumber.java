@@ -11,7 +11,7 @@ public class Naturalnumber {
     } 
     public static void main(String[] args) {
         Naturalnumber no=new Naturalnumber(); 
-        System.out.println("Enter the number for calculating the sum of natural number");
+        System.out.println("Enter the number for calculating the sum of natural number");// 
         Scanner sc=new Scanner(System.in); 
         int value=sc.nextInt(); //Get integer input from the user. 
         int result=summation(value); 
