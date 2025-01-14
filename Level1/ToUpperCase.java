@@ -14,10 +14,10 @@ public class ToUpperCase {
         }
         return result;
     } 
-    static String toUpperCaseValue(String str){// the string value are 
+    static String toUpperCaseValue(String str){// the string value are converted to UpperCase value
         return str.toUpperCase();
     } 
-    static boolean isEqualorNot(String str1,String str2){
+    static boolean isEqualorNot(String str1,String str2){// boolean variable that will check both the string area equal or not
         return str1.equals(str2);
     }
     public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class ToUpperCase {
         String str=sc.nextLine(); 
         String result1=toUpperCaseValue(str);
         String result2=toUpperValue(str); 
-        boolean isSame=isEqualorNot(result1,result2); 
+        boolean isSame=isEqualorNot(result1,result2); // call the isEqualorNot Function
         if(isSame){
             System.out.println("String Conversion is Same");
 

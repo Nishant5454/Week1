@@ -7,10 +7,10 @@ public class StringIndexOutofBound {
         finalresult+=str; 
         String result="";
         result+=finalresult.charAt(finalresult.length()+1); 
-        try { 
+        try { // try if the result value area caught
             System.out.println(result);
             
-        } catch (Exception e) {
+        } catch (Exception e) {// catch the exception
             System.out.println("IndexOutofBoundException");
         }
 

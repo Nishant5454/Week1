@@ -25,8 +25,8 @@ public class LowerCase {
         Scanner sc=new Scanner(System.in); // Scanner class to take the input from the usert
         System.out.println("Enter the string"); 
         String str=sc.nextLine(); 
-        String result1=toLowerValue(str);
-        String result2=toLowerCaseValue(str); 
+        String result1=toLowerValue(str);// call the string that return the string using ASCII values;
+        String result2=toLowerCaseValue(str); // call the string that return the string conversion using the normal values;
         System.out.println(result1);
         boolean isSame=isEqualorNot(result1,result2); // boolean value to check the string are equal or not
         if(isSame){
